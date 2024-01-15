@@ -1,0 +1,136 @@
+/* Shared Items */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+.btn-primary {
+    color: #FFF;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+}
+
+.section-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+/* Banner Section */
+.banner {
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    width: 82.5%;
+    max-width: 1170px;
+    height: 500px;
+    margin-left: 9%;
+}
+
+.banner-content {
+    text-align: center;
+    padding-top: 20px;
+    color: #FFF;
+}
+
+.banner-title {
+    color: #FFF;
+
+    font-size: 64px;
+    font-weight: 500;
+
+}
+
+.banner-description {
+    padding-left: 247px;
+    padding-top: 0px;
+    text-align: center;
+    width: 676px;
+    color: #FFF;
+
+    font-size: 28px;
+    font-weight: 400;
+
+}
+
+.destination {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    margin-top: 30px;
+    margin-left: 175px;
+    gap: 24px;
+}
+
+.box {
+    color: rgba(19, 19, 24, 0.50);
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+}
+
+
+
+/* Our Popular Tour Styles */
+
+.popular {
+
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.popular-container {
+    
+    margin-left: 20%;
+    width: 1040px;
+    height: 6940px;
+}
+
+.popular-des,
+.popular-li {
+    margin-top: 24px;
+    margin-bottom: 40px;
+    width: 575px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.popular-li {
+    width: 525px;
+    /* padding-bottom: 2px; */
+}
+
+
+
+.popular-img {
+    
+    position: relative;
+    padding-right: 275px;
+    border-radius: 16px;
+    width: 500px;
+    height: 550px;
+    flex-shrink: 0;
+}
+/* Footer Section Styles */
+.footer{
+    background: rgba(19, 19, 24, 0.05);
+    width: 1440px;
+    height: 502px;
+    flex-shrink: 0;
+}
