@@ -475,8 +475,8 @@ nav a {
 }
 
 /* Responsive media Quary */
-/* small device */
-@media screen and (max-width: 600px) {
+
+@media screen and (min-width: 600px) and (max-width:992px) {
     nav>ul {
         display: none;
     }
@@ -511,8 +511,7 @@ nav a {
         width: 320px;
         display: flex;
         flex-direction: column;
-        /* grid-template-columns: repeat(1, 1fr); */
-        gap: 18px;
+        gap: 10px;
 
     }
 
