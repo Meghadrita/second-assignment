@@ -404,11 +404,48 @@ nav a {
     font-weight: 800;
 
 }
-
 .news-img {
+    background: url('../Images/Rectangle\ 8\ \(1\).png');
     width: 672px;
     height: 422px;
+    position: relative;
 }
+.news-tag{
+    margin-top: 240px;
+    margin-left: 270px;
+    position: absolute;
+    width: 324px;
+    height: 130px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    
+
+}
+.news-tag-ti{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+
+}
+.news-tag-h{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 0px;
+
+}
+
+
+/* .news-img {
+    width: 672px;
+    height: 422px;
+} */
 
 /* Footer Section Styles */
 .footer {
