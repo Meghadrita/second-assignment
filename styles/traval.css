@@ -411,7 +411,7 @@ nav a {
 }
 
 /* Footer Section Styles */
-.footer{
+.footer {
     margin-top: 100px;
     background: rgba(19, 19, 24, 0.05);
     width: 100%;
@@ -477,12 +477,76 @@ nav a {
 /* Responsive media Quary */
 /* small device */
 @media screen and (max-width: 600px) {
-    nav > ul {
+    nav>ul {
         display: none;
     }
 
     .icon {
         display: flex;
-        
+
     }
+
+    /* Cart  */
+
+    .cart {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        height: 520px;
+        margin-top: 100px;
+        margin-bottom: 800px;
+    }
+
+    .section-title {
+        margin-left: 6%;
+        text-align: center;
+    }
+
+    .choose-des {
+        text-align: center;
+        width: 309px;
+    }
+
+    .cart-details {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        /* grid-template-columns: repeat(1, 1fr); */
+        gap: 18px;
+
+    }
+
+    .cart-3 {
+        margin-left: 2%;
+    }
+
+    /* Footer */
+    .footer-title{
+        padding-left: 0;
+        color: #131318;
+        font-size: 24px;
+        font-weight: 800;
+    }
+   
+    .footer {
+        display: flex;
+        flex-direction: column;
+        /* text-align: center; */
+        width: 400px;
+        height: 502px;
+        margin-top: 400px;
+        background: rgba(19, 19, 24, 0.05);
+    }
+    .end-des{
+        
+        flex-direction: column;
+    }
+    .line{
+        flex-direction: column;
+        margin-left: 0;
+        width: 300px;
+        height: 1px;
+        background: rgba(208, 208, 218, 0.1);
+    }
+
 }
