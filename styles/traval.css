@@ -144,24 +144,21 @@ nav a {
 /* Our Popular Tour Styles */
 
 .popular {
+    margin-top: 30px;
     display: flex;
     justify-content: center;
-    /* margin-top: 80px; */
     border-radius: 16px;
     width: 100%;
-    gap: 10px;
+    gap: 5px;
     max-width: 1170px;
     height: 500px;
     margin-left: 6%;
-
 }
 
 .popular-container {
-    /* padding-top: 0; */
-    /* margin-top: 10px; */
-    padding-left: 40px;
+    padding-left: 20px;
     width: 1440px;
-    /* height: 6940px; */
+    padding-top: 0;
     border-radius: 16px;
 }
 
@@ -182,10 +179,11 @@ nav a {
 }
 
 .popular-img {
-    margin-top:45px;
+    margin-top: 45px;
     border-radius: 16px;
     width: 530px;
     height: 550px;
+    padding-right: 10px;
 
 
 }
@@ -197,6 +195,7 @@ nav a {
     width: 100%;
     max-width: 1170px;
     margin-left: 6%;
+
 }
 
 .choose-content {
@@ -215,16 +214,59 @@ nav a {
 
 }
 
-.row {
-    margin-left: 10px;
+.Maldives {
+    width: 573px;
+    height: 300px;
 }
+
+.maldives-container {
+    margin-top: -200px;
+    text-align: center;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+
+}
+
+.Indonesia {
+    max-width: 573px;
+    height: 300px;
+
+}
+
+.choose-place {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin: 0px auto;
+}
+
+.choose-place2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin: 0px auto;
+    margin-top: 24px;
+}
+
+.choose-place3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin: 0px auto;
+    margin-top: 190px;
+}
+
 
 /* Why Choose Section Styles */
 .cart {
     width: 1170px;
     height: 800px;
     margin-left: 6%;
-    margin-top: 100px;
+    margin-top: 190px;
     text-align: center;
 }
 
@@ -279,7 +321,8 @@ nav a {
     margin-top: 100px;
     width: 100%;
     max-width: 1170px;
-    height: 422px;
+    height: 100%;
+    max-height: 422px;
     margin-left: 6%;
 
 }
@@ -332,10 +375,14 @@ nav a {
 }
 
 .perfect-media {
-    width: 580px;
+    /* margin-top: 0; */
+
+    margin-top: 0;
+    width: 610px;
     height: 424px;
+
     border-radius: 16px;
-    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+
 }
 
 /* Newsletter Section Styles */
@@ -407,13 +454,15 @@ nav a {
     font-weight: 800;
 
 }
+
 .news-img {
     background: url('../Images/Rectangle\ 8\ \(1\).png');
     width: 672px;
     height: 422px;
     position: relative;
 }
-.news-tag{
+
+.news-tag {
     margin-top: 240px;
     margin-left: 270px;
     position: absolute;
@@ -422,10 +471,11 @@ nav a {
     transform: rotate(-19.628deg);
     border-radius: 16px;
     background: #FF5400;
-    
+
 
 }
-.news-tag-ti{
+
+.news-tag-ti {
     color: #FFF;
     text-align: center;
     font-size: 24px;
@@ -435,20 +485,15 @@ nav a {
     margin-top: 15px;
 
 }
-.news-tag-h{
+
+.news-tag-h {
     color: #FFF;
     font-size: 32px;
     font-weight: 800;
     text-align: center;
-    padding-top: 0px;
+    padding-top: 0px;
 
 }
-
-
-/* .news-img {
-    width: 672px;
-    height: 422px;
-} */
 
 /* Footer Section Styles */
 .footer {
@@ -515,8 +560,8 @@ nav a {
 }
 
 /* Responsive media Quary */
-
-@media screen and (min-width: 600px) and (max-width:992px) {
+/* Small Device */
+@media screen and (max-width: 600px) {
     nav>ul {
         display: none;
     }
@@ -525,6 +570,152 @@ nav a {
         display: flex;
 
     }
+
+    /* Banner Section */
+    .banner {
+        border-radius: 16px;
+        background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+        width: 100%;
+        color: aliceblue;
+        align-items: center;
+
+    }
+
+    .banner-title {
+        font-size: 30px;
+        text-align: center;
+        padding-top: 20px;
+
+
+    }
+
+    .banner-description {
+        width: 300px;
+        padding-left: 145px;
+        font-size: 12px;
+        text-align: center;
+
+    }
+
+    .destination {
+        display: inline-block;
+        background: rgba(255, 255, 255, 0.30);
+        width: 40%;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 185px;
+
+    }
+
+    .box {}
+
+    /* Our Popular Tour Styles */
+    .section-title {}
+
+
+    .popular {
+        margin-top: 300px;
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        height: 520px;
+        justify-content: center;
+        margin-left: 10px;
+        margin-bottom: 300px;
+    }
+
+    /* Cart  */
+
+    .cart {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        height: 520px;
+        margin-top: 100px;
+        margin-bottom: 850px;
+    }
+
+
+    .choose-des {
+        text-align: center;
+        width: 309px;
+    }
+
+    .cart-details {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .cart-3 {
+        margin-left: 2%;
+    }
+
+    /* Perfect Place Section Styles */
+    .perfect {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Newsletter Section Styles */
+
+    .newsletter {
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        height: 920px;
+        align-items: center;
+    }
+
+    /* Footer */
+    .footer-title {
+        padding-left: 0;
+        color: #131318;
+        font-size: 24px;
+        font-weight: 800;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        height: 520px;
+        margin-top: 80px;
+        background: rgba(19, 19, 24, 0.05);
+    }
+
+    .end-des {
+        width: 287px;
+        margin-left: 155px;
+        flex-direction: column;
+    }
+
+    .media {
+        margin-left: 200px;
+    }
+
+    .line {
+        flex-direction: column;
+        width: 300px;
+        height: 1px;
+        background: rgba(208, 208, 218, 0.1);
+    }
+
+    .copyright {
+        width: 287px;
+        margin-left: 200px;
+    }
+}
+
+
+/* Medium Device */
+@media screen and (min-width: 601px) and (max-width:992px) {
+
 
     /* Cart  */
 
@@ -559,33 +750,6 @@ nav a {
         margin-left: 2%;
     }
 
-    /* Footer */
-    .footer-title{
-        padding-left: 0;
-        color: #131318;
-        font-size: 24px;
-        font-weight: 800;
-    }
-   
-    .footer {
-        display: flex;
-        flex-direction: column;
-        /* text-align: center; */
-        width: 400px;
-        height: 502px;
-        margin-top: 400px;
-        background: rgba(19, 19, 24, 0.05);
-    }
-    .end-des{
-        
-        flex-direction: column;
-    }
-    .line{
-        flex-direction: column;
-        margin-left: 0;
-        width: 300px;
-        height: 1px;
-        background: rgba(208, 208, 218, 0.1);
-    }
+
 
 }
